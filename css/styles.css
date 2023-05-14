@@ -3,24 +3,25 @@
 } */
 
 :root {
---iris: #4d5ae5;
---navyblue: #2e2f42;
---slate: #434455;
---liteslate: #8e8f99;
---cloud: #f4f4fd;
---white: #ffffff;
---ocean: #404bbf; 
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --liteslate: #8e8f99;
+  --cloud: #f4f4fd;
+  --white: #ffffff;
+  --ocean: #404bbf;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
   background-color: var(--white);
+}
 
-  .list {
+.list {
   list-style: none;
 }
 
@@ -28,9 +29,8 @@ body {
   text-decoration: none;
 }
 
-
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -77,7 +77,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--white); 
+  color: var(--white);
 }
 
 .button {
@@ -126,7 +126,7 @@ h3 {
 }
 
 .filter-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
