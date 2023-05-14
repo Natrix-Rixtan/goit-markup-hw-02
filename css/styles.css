@@ -143,6 +143,10 @@ h3 {
   color: var(--navyblue);
 }
 
+.portfolio-text {
+  color: var(--slate);
+}
+
 .footer {
   background-color: var(--navyblue);
 }
