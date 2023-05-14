@@ -1,0 +1,151 @@
+/* * {
+  margin: 0;
+} */
+
+:root {
+/* CTAs. Focused. Active states. Links */
+--iris: #4d5ae5;
+/* Overlays. Shadows. Headings */
+--navy-blue: #2e2f42;
+/* Body text */
+--slate: #434455;
+/* Helper text. Deemphasized text */
+--lite-slate: #8e8f99;
+/* Light mode backgrounds. Light mode Dialogs/alerts */
+--cloud: #f4f4fd;
+/* Header,  team card background */
+--white: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+
+  .list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.web {
+  color: var(--iris);
+}
+
+.weblogo {
+  color: var(--navy-blue);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--iris);
+}
+
+.adress-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--lite-slate);
+}
+
+.hero {
+  background: var(--navy-blue);
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background: var(--cloud);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  background: var(--iris);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+
+.footer {
+  background: var(--navy-blue);
+}
+
+.footer-logo {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+}
+
+.filter-button {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background: var(--cloud);
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white);
+  background: var(--iris);
+}
