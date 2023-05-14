@@ -3,22 +3,17 @@
 } */
 
 :root {
-/* CTAs. Focused. Active states. Links */
 --iris: #4d5ae5;
-/* Overlays. Shadows. Headings */
---navy-blue: #2e2f42;
-/* Body text */
+--navyblue: #2e2f42;
 --slate: #434455;
-/* Helper text. Deemphasized text */
---lite-slate: #8e8f99;
-/* Light mode backgrounds. Light mode Dialogs/alerts */
+--liteslate: #8e8f99;
 --cloud: #f4f4fd;
-/* Header,  team card background */
 --white: #ffffff;
+--ocean: #404bbf;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -35,7 +30,7 @@ body {
 
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -47,8 +42,8 @@ body {
   color: var(--iris);
 }
 
-.weblogo {
-  color: var(--navy-blue);
+.logo-header {
+  color: var(--navyblue);
 }
 
 .header-link {
@@ -56,7 +51,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--navyblue);
 }
 
 .header-link:hover,
@@ -74,19 +69,18 @@ body {
 
 .adress-link:hover,
 .adress-link:focus {
-  color: var(--lite-slate);
+  color: var(--liteslate);
 }
 
 .hero {
-  background: var(--navy-blue);
+  background-color: var(--navyblue);
 }
 
-h1 {
+.tytle-hero {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: var(--white); 
 }
 
 .button {
@@ -97,37 +91,36 @@ h1 {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--iris);
-  background: var(--cloud);
+  background-color: var(--cloud);
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  color: #fff;
-  background: var(--iris);
+  color: var(--white);
+  background-color: var(--iris);
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
-  color: var(--navy-blue);
+  color: var(--navyblue);
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--navy-blue);
+  color: var(--navyblue);
 }
 
 .footer {
-  background: var(--navy-blue);
+  background-color: var(--navyblue);
 }
 
-.footer-logo {
+.logo-footer {
   color: var(--cloud);
 }
 
@@ -135,17 +128,17 @@ h3 {
   color: var(--cloud);
 }
 
-.filter-button {
+.filter-btn {
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--iris);
-  background: var(--cloud);
+  background-color: var(--cloud);
   cursor: pointer;
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--white);
-  background: var(--iris);
+  background-color: var(--ocean);
 }
