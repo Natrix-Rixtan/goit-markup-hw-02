@@ -135,6 +135,14 @@ h3 {
   background-color: var(--white);
 }
 
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
 .footer {
   background-color: var(--navyblue);
 }
