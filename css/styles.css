@@ -124,8 +124,11 @@ h3 {
 }
 
 .team {
-  text-align: center
   background-color: var(--cloud);
+}
+
+.team-title {
+  text-align: center;
 }
 
 .team-item {
