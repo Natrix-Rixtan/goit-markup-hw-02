@@ -56,8 +56,11 @@ body {
   color: var(--ocean);
 }
 
-.adress-link {
+.adress {
   font-style: normal;
+}
+
+.adress-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -66,17 +69,18 @@ body {
 
 .adress-link:hover,
 .adress-link:focus {
-  color: var(--liteslate);
+  color: var(--ocean);
 }
 
 .hero {
   background-color: var(--navyblue);
 }
 
-.tytle-hero {
+.title-hero {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--white);
 }
 
@@ -87,21 +91,22 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--iris);
-  background-color: var(--cloud);
+  color: var(--white);
+  background-color: var(--iris);
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   color: var(--white);
-  background-color: var(--iris);
+  background-color: var(--ocean);
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
 }
@@ -109,8 +114,22 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   line-height: 1.2;
   color: var(--navyblue);
+}
+
+.activities-title {
+  text-align: center;
+}
+
+.team {
+  text-align: center
+  background-color: var(--cloud);
+}
+
+.team-item {
+  background-color: var(--white);
 }
 
 .footer {
